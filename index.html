@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--<script type="text/javascript">alert("Xoay ngang điện thoại !!");</script>-->
+	<link rel="stylesheet" href="./style.css"> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Myself</title>
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="https://kit.fontawesome.com/6acba29d40.js" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" type="image/png" href="./logo.png"/>
+	<script>
+		$(function(){
+			$('div.in4').hide();
+			$('img').click(function(){
+				$('div.in4').show();
+			});
+			$('#close').click(function(){
+				$('div.in4').hide();
+			});
+		});
+		</script>
+</head>
+<body>
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+<div class="bg6"></div>
+<div class="bg6 bg4"></div>
+<div class="bg6 bg5"></div>
+<div class="hg">
+<img class="img1" src="hiu3.jpg">
+<h2 id="h2" onclick="location.href='https://github.com/minhhiunee/';">@minhhiunee</h2>
+<h1 id="h1">Contacts</h1>
+<button class="button" onclick="location.href='https://www.facebook.com/hieu.ng.21506/';">
+	<i class='fab fa-facebook' id="fb" style='font-size:18px;'></i> Facebook
+</button>
+<button class="button" onclick="location.href='https://www.instagram.com/ng.mhiu_06';">
+	<i class='fab fa-instagram' id="insta" style='font-size:18px;'></i> Instagram
+</button>
+<button class="button" onclick="location.href='https://twitter.com/hiunguyen_15';">
+	<i class="fa-brands fa-twitter" style="font-size: 18px; color:#00acee ;"></i> Twitter
+</button>
+<button class="button" onclick="location.href='mailto:kocodau2006@gmail.com';" style=" font-size: 18px;">
+	<i class="fa-solid fa-envelope" style="font-size:15px;color:rgb(31, 134, 237) ;"></i> Mail Contact
+</button>
+</div>
+<div class="in4">
+	<h1>More about myself...</h1>
+	<h1 id="close">x</h1>
+	<h2 style="color:#eb493f ;">Full name:</h2> 
+	<h2 id="name">Nguyễn Minh Hiếu</h2><br>
+	<h2 style="color:#eb493f ;">Date of birth:</h2>
+	<h2 id="born">15/01/2006</h2><br>
+	<h2 style="color:#eb493f ;">Address:</h2>
+	<h2 id="add" onclick="location.href='https://goo.gl/maps/UyNTaYuEgUuypSTw5';"> Cao Thuong Town,</h2><br>
+	<h2 id="add2"> Tan Yen District, Bac Giang Province</h2>
+	<h2 style="color:#eb493f ;">Occupation:</h2>
+	<h2 id="job"> Student (11)</h2>
+	<h2 id="job2" onclick="location.href='http://thpttanyen1.bacgiang.edu.vn/';" style="cursor: pointer; color: skyblue;" > at Tan Yen No 1 High School</h2>
+</div>
+</body>
+</html>

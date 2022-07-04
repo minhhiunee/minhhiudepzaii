@@ -1,0 +1,216 @@
+html {
+  height:100%;
+}
+body {
+  margin:0;
+}
+.bg {
+  animation:slide 4s ease-in-out infinite alternate;
+  background-image: linear-gradient(-140deg, skyblue 50%, black 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:5s;
+}
+.bg3 {
+  animation-duration:6s;
+}
+.bg6 {
+  animation:slide 4s ease-in-out infinite alternate;
+  background-image: linear-gradient( 50deg, purple 75%, mintcream 25%);
+  bottom:0;
+  left:-50%;
+  opacity:.1;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+.bg4 {
+  animation-direction:alternate-reverse;
+  animation-duration:5s;
+}
+.bg5 {
+  animation-duration:10s;
+}
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+.hg{
+  width:200px;
+  height: 50%;
+  position:relative;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  top: -10%;
+} 
+.img1{
+  border-radius:50%;
+  display: block;
+  position:relative;
+  width:80%;
+  left: 10%;
+  top: 10px;
+  cursor: pointer;
+}
+#fb{
+  background: linear-gradient( to bottom, #17A9FD, #0165E1);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#insta{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+button{
+  font-family: "Monaco",monospace;
+  width: 170px;
+  height: 50px;
+  color:black ;
+  background: mintcream;
+  margin-bottom: 20px;
+  margin-left: 8%;
+  position: relative;
+  top:15px;
+  border-radius: 30%;
+  box-shadow: 3px 4px black;
+  cursor: pointer;
+} 
+#h2{
+  color: mintcream ;
+  font-family: "Lucida Handwriting",Cursive;
+  position: relative;
+  top: 8px;
+  left: 18%;
+  font-size: 15px;
+  text-shadow: 2px 1px black;
+  cursor: pointer;
+}
+#h1{
+  color: mintcream ;
+  font-family: "Lucida Handwriting",Cursive;
+  position: relative;
+  top: 20px;
+  left: -3%;
+  font-size: 30px;
+  text-shadow: 3px 2px black;
+}
+.button:hover{
+  background-color:#022238 ;
+  color: mintcream;
+}
+.button{
+  font-size: 20px;
+}
+.in4{
+  width:400px;
+  height: 300px;
+  background-color: black;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+}
+h1{
+  position: relative ;
+  font-family: 'Courier New', Courier, monospace ;
+  top : 5%;
+  font-size: 25px;
+  text-align:center;
+  text-shadow: 0px 0px 5px deepskyblue;
+  color:#427ae3;
+}
+h2{
+  font-family:'Courier New', Courier, monospace ;
+  font-size: 20px;
+  margin-bottom: -25px;
+  position: relative;
+  left:20px;
+  top: -20px;
+  text-shadow: 0px 0px 5px red;
+}
+#name{
+  font-family:'Courier New', Courier, monospace ;
+  font-size: 20px;
+  margin-bottom: -30px;
+  position: relative;
+  top: -36px;
+  left: 150px;
+  color: mintcream;
+}
+#born{
+  font-family:'Courier New', Courier, monospace ;
+  font-size: 20px;
+  margin-bottom: -30px;
+  position: relative;
+  top: -35px;
+  left: 190px;
+  color: mintcream;
+
+}
+#add{
+  font-family:'Courier New', Courier, monospace ;
+  font-size: 20px;
+  margin-bottom: -30px;
+  position: relative;
+  top: -34px;
+  left: 120px;
+  color: mintcream;
+  cursor: pointer;
+}
+#add2{
+  font-family:'Courier New', Courier, monospace ;
+  font-size: 17px;
+  margin-bottom: -20px;
+  position: relative;
+  top: -30px;
+  left: 25px;
+  color: mintcream;
+
+}
+#job{
+  font-family:'Courier New', Courier, monospace ;
+  font-size: 19px;
+  margin-bottom: -10px;
+  position: relative;
+  top: -32px;
+  left: 160px;
+  color: mintcream;
+
+}
+#job2{
+  font-family:'Courier New', Courier, monospace ;
+  font-size: 19px;
+  margin-bottom: -10px;
+  position: relative;
+  top: -32px;
+  left: 80px;
+  text-shadow: 0px 0px 5px deepskyblue;
+}
+#close{
+  position: relative ;
+  font-family: 'Courier New', Courier, monospace ;
+  top : 5%;
+  font-size: 25px;
+  top: 230px;
+  text-align: center;
+  text-shadow: 0px 0px 2px skyblue;
+  color:#427ae3;
+  cursor: pointer;
+}
