@@ -87,27 +87,27 @@ button{
   margin-bottom: 20px;
   margin-left: 8%;
   position: relative;
-  top:15px;
+  top:25px;
   border-radius: 30%;
   box-shadow: 3px 4px black;
   cursor: pointer;
 } 
 #h2{
   color: mintcream ;
-  font-family: "Lucida Handwriting",Cursive;
+  font-family:'Lucida Console',  monospace ;
   position: relative;
   top: 8px;
   left: 18%;
-  font-size: 15px;
+  font-size: 19px;
   text-shadow: 2px 1px black;
   cursor: pointer;
 }
 #h1{
   color: mintcream ;
-  font-family: "Lucida Handwriting",Cursive;
+  font-family:'Courier New', Courier, monospace ;
   position: relative;
-  top: 20px;
-  left: -3%;
+  top: 25px;
+  left: -1%;
   font-size: 30px;
   text-shadow: 3px 2px black;
 }
