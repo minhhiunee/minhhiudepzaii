@@ -80,12 +80,12 @@ body {
 }
 button{
   font-family: "Monaco",monospace;
-  width: 170px;
+  width: 190px;
   height: 50px;
   color:black ;
   background: mintcream;
   margin-bottom: 20px;
-  margin-left: 8%;
+  margin-left: 4%;
   position: relative;
   top:25px;
   border-radius: 30%;
@@ -94,11 +94,11 @@ button{
 } 
 #h2{
   color: mintcream ;
-  font-family:'Lucida Console',  monospace ;
+  font-family:pacifico ;
   position: relative;
-  top: 8px;
+  top: 7px;
   left: 18%;
-  font-size: 19px;
+  font-size: 23px;
   text-shadow: 2px 1px black;
   cursor: pointer;
 }
@@ -133,8 +133,11 @@ h1{
   top : 5%;
   font-size: 25px;
   text-align:center;
-  text-shadow: 0px 0px 5px deepskyblue;
-  color:#427ae3;
+  text-shadow:
+  skyblue 0px 0px 12px,
+  skyblue 0px 0px 24px,
+  skyblue 0px 0px 36px;
+  color:deepskyblue;
 }
 h2{
   font-family:'Courier New', Courier, monospace ;
