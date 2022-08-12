@@ -92,6 +92,7 @@ button{
   border: 3px solid black;
   cursor: pointer;
   backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
 } 
 #h2{
   color: mintcream ;
