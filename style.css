@@ -9,11 +9,12 @@ body {
   background-image: linear-gradient(-140deg, skyblue 50%, black 50%);
   bottom:0;
   left:-50%;
-  opacity:.5;
+  opacity:.6;
   position:fixed;
   right:-50%;
   top:0;
   z-index:-1;
+  filter: blur(2px);
 }
 .bg2 {
   animation-direction:alternate-reverse;
@@ -27,11 +28,12 @@ body {
   background-image: linear-gradient( 50deg, purple 75%, green 50%);
   bottom:0;
   left:-50%;
-  opacity:.1;
+  opacity:0.1;
   position:fixed;
   right:-50%;
   top:0;
-  z-index:-1;
+  z-index:-2;
+  filter: blur(2px);
 }
 .bg4 {
   animation-direction:alternate-reverse;
@@ -201,11 +203,20 @@ h2{
 }
 #job2{
   font-family:'Courier New', Courier, monospace ;
+  font-size: 16.5px;
+  margin-bottom: -10px;
+  position: relative;
+  top: -42px;
+  left: 4px;
+  text-shadow: 0px 0px 5px deepskyblue;
+}
+#job3{
+  font-family:'Courier New', Courier, monospace ;
   font-size: 19px;
   margin-bottom: -10px;
   position: relative;
-  top: -32px;
-  left: 200px;
+  top: -42px;
+  left: 22px;
   text-shadow: 0px 0px 5px deepskyblue;
 }
 #close{
