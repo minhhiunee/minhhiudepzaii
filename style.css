@@ -5,7 +5,16 @@ body {
   margin:0;
 }
 .bg {
-  animation:slide 4s ease-in-out infinite alternate;
+    animation:slide 4s ease-in-out  infinite alternate;
+  background-image: linear-gradient(220deg, skyblue 48%, #2c202e 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.9;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+/*  animation:slide 4s ease-in-out infinite alternate;
   background-image: linear-gradient(-140deg, skyblue 50%, black 50%);
   bottom:0;
   left:-50%;
@@ -14,6 +23,7 @@ body {
   right:-50%;
   top:0;
   z-index:-1;
+  */
   filter: blur(2px);
 }
 .bg2 {
@@ -23,7 +33,7 @@ body {
 .bg3 {
   animation-duration:6s;
 }
-.bg6 {
+/*.bg6 {
   animation:slide 4s ease-in-out infinite alternate;
   background-image: linear-gradient( 50deg, purple 75%, green 50%);
   bottom:0;
@@ -41,7 +51,7 @@ body {
 }
 .bg5 {
   animation-duration:10s;
-}
+}*/
 @keyframes slide {
   0% {
     transform:translateX(-25%);
