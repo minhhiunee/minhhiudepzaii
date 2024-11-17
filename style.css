@@ -155,19 +155,21 @@ h1{
 }
 h2{
   font-family:'Courier New', Courier, monospace ;
-  font-size: 20px;
-  margin-bottom: -25px;
+  font-size: 19px;
+  margin-bottom: -35px;
   position: relative;
   left:20px;
   top: -20px;
   text-shadow: 0px 0px 5px red;
+  padding: -10px;
+
 }
 #name{
   font-family:'Courier New', Courier, monospace ;
   font-size: 20px;
   margin-bottom: -30px;
   position: relative;
-  top: -36px;
+  top: -24px;
   left: 150px;
   color: mintcream;
 }
@@ -176,7 +178,7 @@ h2{
   font-size: 20px;
   margin-bottom: -30px;
   position: relative;
-  top: -35px;
+  top: -24px;
   left: 190px;
   color: mintcream;
 
@@ -184,9 +186,9 @@ h2{
 #add{
   font-family:'Courier New', Courier, monospace ;
   font-size: 20px;
-  margin-bottom: -30px;
+  margin-bottom: -27px;
   position: relative;
-  top: -34px;
+  top: -24px;
   left: 120px;
   color: mintcream;
   cursor: pointer;
@@ -206,27 +208,27 @@ h2{
   font-size: 19px;
   margin-bottom: -10px;
   position: relative;
-  top: -32px;
+  top: -21px;
   left: 160px;
   color: mintcream;
 
 }
 #job2{
   font-family:'Courier New', Courier, monospace ;
-  font-size: 16.5px;
+  font-size: 15px;
   margin-bottom: -10px;
   position: relative;
-  top: -42px;
-  left: 4px;
+  top: -30px;
+  left: 20px;
   text-shadow: 0px 0px 5px deepskyblue;
 }
 #job3{
   font-family:'Courier New', Courier, monospace ;
-  font-size: 19px;
+  font-size: 16px;
   margin-bottom: -10px;
   position: relative;
-  top: -42px;
-  left: 22px;
+  top: -35px;
+  left: 40px;
   text-shadow: 0px 0px 5px deepskyblue;
 }
 #close{
