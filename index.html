@@ -26,64 +26,64 @@
 </style>
 </head>
 <body>
-<script src="https://api.1aie.com/?key=88df8df7d5c6389a3de4b83b45dac6b8&active=ani"></script>
-<script> function demo() {
-	/* BEGIN SNOW */
-	aie_ani({
-	type: "snow",
-	id: "body",
-	ani: "snow( color:mix, fly:random, num:15, size:30x30, fade:0, height:110%, effect: fall+spin+zoom[5] )",
-	speed: 15,
-	opacity: -1,
-	zindex: 1,
-	position: "absolute"
-	});
-	/* END SNOW */
-	
-	/* BEGIN FIREWORK */
-	/* Biến move cho thiết bị di động và desktop */
-	if (aie_mobile_device) move = "move(x:0,y:0,xa:0,ya:-766)";
-	else move = "move(x:0,y:0,xa:0,ya:-486)";
-	aie_ani({
-	type: "creator",
-	id: "body",
-	ani: `creator(
-	num: 5,
-	opt:[
-	top(random(200,200)),
-	left(random(1,99)),
-	opacity(random(100,100)),
-	color(#86FDFF, #FFFFFF),
-	],
-	shape: [
-	meteor(top){
-	effect["
-	`+move+` /* move đã khai báo bên trên */
-	"]
-	}
-	]
-	)`,
-	/* Các biến chung xem thêm tài liệu hướng dẫn */
-	ani_list: "coeval",
-	ani_repeat: 0,
-	ani_repeat_delay: 10,
-	speed: 1,
-	change_ani: false,
-	keep_in: false,
-	keep_out: false,
-	fade_in: 0,
-	fade_out: 0,
-	opacity: 0.4,
-	opacity_bg: "",
-	scroll: false,
-	zindex: 1,
-	position: "absolute"
-	});
-	/* END FIREWORK */
-	
-	}
-	demo();
-</script>
+	<script src="https://api.1aie.com/?key=88df8df7d5c6389a3de4b83b45dac6b8&active=ani"></script>
+	<script> function demo() {
+		/* BEGIN SNOW */
+		aie_ani({
+		type: "snow",
+		id: "body",
+		ani: "snow( color:mix, fly:random, num:15, size:30x30, fade:0, height:110%, effect: fall+spin+zoom[5] )",
+		speed: 15,
+		opacity: 0,
+		zindex: 1,
+		position: "absolute"
+		});
+		/* END SNOW */
+		
+		/* BEGIN FIREWORK */
+		/* Biến move cho thiết bị di động và desktop */
+		if (aie_mobile_device) move = "move(x:0,y:0,xa:0,ya:-766)";
+		else move = "move(x:0,y:0,xa:0,ya:-486)";
+		aie_ani({
+		type: "creator",
+		id: "body",
+		ani: `creator(
+		num: 5,
+		opt:[
+		top(random(200,200)),
+		left(random(1,99)),
+		opacity(random(100,100)),
+		color(#86FDFF, #FFFFFF),
+		],
+		shape: [
+		meteor(top){
+		effect["
+		`+move+` /* move đã khai báo bên trên */
+		"]
+		}
+		]
+		)`,
+		/* Các biến chung xem thêm tài liệu hướng dẫn */
+		ani_list: "coeval",
+		ani_repeat: 0,
+		ani_repeat_delay: 10,
+		speed: 1,
+		change_ani: false,
+		keep_in: false,
+		keep_out: false,
+		fade_in: 0,
+		fade_out: 0,
+		opacity: 0.3,
+		opacity_bg: "",
+		scroll: false,
+		zindex: 1,
+		position: "absolute"
+		});
+		/* END FIREWORK */
+		
+		}
+		demo();
+		</script>
 <div class="bg"></div>
 <div class="bg bg2"></div>
 <div class="bg bg3"></div>
@@ -118,9 +118,9 @@
 	<h2 style="color:#eb493f ;">Address:</h2>
 	<h2 id="add" onclick="location.href='https://goo.gl/maps/UyNTaYuEgUuypSTw5';"> Cao Thuong Town,</h2><br>
 	<h2 id="add2"> Tan Yen District, Bac Giang Province</h2>
-	<h2 style="color:#eb493f ;">Occupation:</h2>
+	<h2 id="occ" style="color:#eb493f ;">Occupation:</h2>
 	<h2 id="job"> Student at </h2>
-	<h3 id="job2" onclick="location.href='https://uet.vnu.edu.vn/';" style="cursor: pointer; color: skyblue;" > University of Engineering and Technology</h3>
+	<h4 id="job2" onclick="location.href='https://uet.vnu.edu.vn/';" style="cursor: pointer; color: skyblue;" > University of Engineering and Technology</h4>
 	<h3 id="job3" onclick="location.href='https://uet.vnu.edu.vn/';" style="cursor: pointer; color: skyblue;"> ( Vietnam National University )</h3>
 </div>
 </body>
