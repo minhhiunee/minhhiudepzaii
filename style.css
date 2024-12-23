@@ -133,9 +133,13 @@ button{
 .button:hover{
   background-color:#022238 ;
   color: mintcream;
+  position: relative;
+  z-index: 2;
 }
 .button{
   font-size: 20px;
+  position: relative;
+  z-index: 2;
 }
 .in4{
   width:400px;
@@ -145,6 +149,7 @@ button{
   margin-left: auto;
   margin-right: auto;
   border-radius: 5%;
+  z-index: 2;
 }
 h1{
   position: relative ;
